@@ -13,4 +13,10 @@
 
 ---
 
+## Parte 6 - Vega-Lite e API Vega-Lite
+
+[Exercícios](parte6-api_vega-lite/index.html)<br>
+
+---
+
 Para saber mais sobre a sintaxe markdown, veja [este guia](https://guides.github.com/features/mastering-markdown/).
