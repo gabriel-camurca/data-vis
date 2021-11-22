@@ -7,5 +7,15 @@
     <body>
         <h1>Título</h1>
         <p>Esse é um parágrafo.</p> 
+        <div id="observablehq-exercicio_01-4b2d12b8"></div>
+        <p>Credit: <a href="https://observablehq.com/@gabriel-camurca/vega-lite-api-exercicios">Vega-Lite Api - Exercícios by Gabriel Camurça</a></p>
+
+        <script type="module">
+            import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+            import define from "https://api.observablehq.com/@gabriel-camurca/vega-lite-api-exercicios.js?v=3";
+            new Runtime().module(define, name => {
+            if (name === "exercicio_01") return new Inspector(document.querySelector("#observablehq-exercicio_01-4b2d12b8"));
+            });
+        </script>
     </body>
 </html>
